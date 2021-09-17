@@ -1,0 +1,49 @@
+:root {
+  --vermelho: #E50914;
+  --preto: #141414;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  background-color: var(--preto);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+div.conteiner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div.conteiner h2 {
+  font-size: 40px;
+  font-family: 'Arial Black', Times;
+  color: var(--vermelho);
+}
+
+div.conteiner nav {
+}
+
+div.conteiner a {
+  text-decoration: none;
+  color: #aaa;
+  background-color: var(--preto);
+  padding: 5px 10px;
+  margin: 0 2px;
+  border-radius: 3%;
+  transition: 0.3s;
+}
+
+div.conteiner a:hover {
+  font-size: 120%;
+  background-color: var(--vermelho);
+  color: white;
+  transition: 0.3s;
+  margin: 0 10px 0 10px;
+}
