@@ -10,40 +10,88 @@
 
 }
 
+/*Elementos base*/
+
 body {
   background-color: var(--preto);
   font-family: 'Times New Roman', Times, serif;
+  color: white;
 }
 
-div.conteiner {
+div.wrapper .cabecalho{
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-div.conteiner h2 {
+div.wrapper h2 {
   font-size: 40px;
   font-family: 'Arial Black', Times;
   color: var(--vermelho);
 }
 
-div.conteiner nav {
-}
-
-div.conteiner a {
+div.wrapper nav.menu a {
   text-decoration: none;
   color: #aaa;
   background-color: var(--preto);
   padding: 5px 10px;
   margin: 0 2px;
   border-radius: 3%;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
-div.conteiner a:hover {
-  font-size: 120%;
+div.wrapper nav.menu a:hover {
+  padding: 5px 15px;
   background-color: var(--vermelho);
   color: white;
-  transition: 0.3s;
+  transition: 0.5s;
   margin: 0 10px 0 10px;
+}
+
+/*Filme principal*/
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 16px;
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("/img/the_blacklist_bg.jpg");
+  height: 400px;
+  background-size: cover;
+}
+
+.titulo {
+  margin-bottom: 100px;
+  font-size: 60px;
+}
+
+.descricao {
+  margin-bottom: 80px;
+}
+
+.botoes a {
+  text-decoration: none;
+  color: var(--preto);
+}
+
+.botoes .botao:nth-child(1) {
+  background-color: var(--vermelho);
+}
+
+.botoes .botao:nth-child(2) {
+  background-color: gray;
+}
+
+.botao {
+  padding: 5px;
+  color: var(--preto);
+  border-radius: 5%;
+  border-style: initial;
+  transition: 0.5s;
+}
+
+.botao:hover {
+  padding: 5px 10px;
+  transition: 0.5s;
 }
