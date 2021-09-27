@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <link rel="stylesheet" href="./estilos/main.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NETFLIX CLONE</title>
+    <link rel="stylesheet" href="./estilos/main.css">
+    <!--CSS owl-->
+    <link rel="stylesheet" href="./estilos/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="./estilos/owl/owl.theme.default.min.css">
 </head>
 <body>
     <header>
@@ -29,14 +32,35 @@
             </div>
             <div class="botoes">
                 <button role="button" class="botao">
+                    <i class="fas fa-play"></i>
                     Assistir Agora
                 </button>
-                <button role="button" class="botao"><a href="https://www.themoviedb.org/tv/46952-the-blacklist?language=pt-BR">
+                <button role="button" class="botao">
+                    <i class="fas fa-info-circle"></i>
                     Informações
-                    </a>
                 </button>
             </div>
         </div>
-    </main>
+    </main>    
+    <div class="carrossel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img src="./img/capa_black_list.jpg" alt=""></div>
+            <div class="item"><img src="./img/capa_lucifer.jpg" alt=""></div>
+            <div class="item"><img src="./img/capa_peaky_blinders.jpg" alt=""></div>
+            <div class="item"><img src="./img/capa_alice_in_wonderland.jpg" alt=""></div>
+            <div class="item"><img src="./img/capa_house.jpg" alt=""></div>
+            <div class="item"><img src="./img/capa_invencivel.jpg" alt=""></div>
+            <div class="item"><img src="./img/capa_loki.jpg" alt=""></div>
+            <div class="item"><img src="./img/capa_rick_and_morty.jpg" alt=""></div>
+            <div class="item"><img src="./img/capa_supernatural.jpg" alt=""></div>
+            <div class="item"><img src="./img/capa_the_big_bang_theory.jpg" alt=""></div>
+            <div class="item"><img src="./img/capa_the_boys.jpg" alt=""></div>
+            <div class="item"><img src="./img/capa_vikings.jpg" alt=""></div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/7772761406.js" crossorigin="anonymous"></script>
+    <script src="./js/owl/jquery.min.js"></script>
+    <script src="./js/owl/owl.carousel.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
