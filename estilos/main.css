@@ -19,19 +19,23 @@ body {
   color: white;
 }
 
-div.wrapper .cabecalho{
+.wrapper {
+  margin: 0 10px;
+}
+
+.cabecalho{
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-div.wrapper h2 {
+.wrapper h2 {
   font-size: 40px;
   font-family: 'Arial Black', Times;
   color: var(--vermelho);
 }
 
-div.wrapper nav.menu a {
+.menu a {
   text-decoration: none;
   color: #aaa;
   background-color: var(--preto);
@@ -41,12 +45,12 @@ div.wrapper nav.menu a {
   transition: 0.5s;
 }
 
-div.wrapper nav.menu a:hover {
+.menu a:hover {
   padding: 5px 15px;
   background-color: var(--vermelho);
   color: white;
   transition: 0.5s;
-  margin: 0 10px 0 10px;
+  margin: 0 10px;
 }
 
 /*Filme principal*/
@@ -69,7 +73,7 @@ div.wrapper nav.menu a:hover {
 }
 
 .descricao {
-  margin-top: 10px;
+  margin-top: 30px;
   margin-bottom: 80px;
 }
 

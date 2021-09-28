@@ -1,0 +1,31 @@
+@media (max-width: 320px) {
+  .menu a {
+    margin: 0 0;
+  }
+  .menu a:hover {
+    margin: 0 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .botao {
+    margin-top: 5px;
+    width: 200px;
+  }
+}
+
+@media (max-width: 700px) {
+  .cabecalho {
+    display: flex;
+    flex-direction: column;
+  }
+  .main {
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 700px) {
+  .descricao {
+    width: 50%;
+  }
+}
