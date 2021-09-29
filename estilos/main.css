@@ -19,6 +19,10 @@ body {
   color: white;
 }
 
+div {
+  display: block;
+}
+
 .wrapper {
   margin: 0 10px;
 }
@@ -105,8 +109,12 @@ body {
 }
 
 
-.carrossel-filmes {
+.carrossel {
   margin: 15px 10px;
+}
+
+.carrossel h2 {
+  margin-bottom: 5px;
 }
 
 .item img {

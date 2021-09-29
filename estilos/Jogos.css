@@ -1,0 +1,172 @@
+:root {
+  --vermelho: #E50914;
+}
+
+main {
+  display: block;
+}
+
+.container {
+  width: 1152px;
+  max-width: 100%;
+  padding: 0 15px;
+  margin-top: 20px;
+}
+
+.header {
+  width: 100%;
+  padding-top: 220px;
+}
+
+.parallax-container {
+  position: absolute;
+  left: 0;
+  height: 220px;
+  margin-top: -220px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.parallax-container::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background-image: linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,0) 65%, rgba(0,0,0,0.25) 100%);
+}
+
+.parallax-bg {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  filter: blur(8px);
+  transform: scale(1.1);
+}
+
+.parallax-bg img {
+  width: 100%;
+}
+
+.game-info-img {
+  margin-top: 261px;
+  padding-bottom: 33px;
+  position: relative;
+  margin-bottom: 15px;
+  padding-top: 15px;
+}
+
+.cover {
+  float: left;
+  width: 264px;
+  margin-right: 15px;
+  margin-top: -150px;
+}
+
+.jogou {
+  background-color: lightgray;
+  margin-top: 5px;
+  display: flex;
+  color: black;
+  border: none;
+  padding: 5px 110px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.jogou:hover {
+  background-color: var(--vermelho);
+  color: white;
+}
+
+.game-info {
+  position: absolute;
+  display: block;
+  left: 290px;
+  top: 131px;
+}
+
+.game-info h2 {
+  margin-top: 25px;
+}
+
+.game-info a {
+  text-decoration: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+}
+
+.game-info a:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--vermelho);
+  cursor: pointer;
+}
+
+.ref-wrapper {
+  position: absolute;
+  display: block;
+  left: 290px;
+  top: 305px
+}
+
+.semi-bold {
+  font-weight: bold;
+}
+
+.referencias p {
+  margin-bottom: 20px;
+}
+.referencias a {
+  color:var(--vermelho);
+  text-decoration: none;
+}
+
+.referencias a:hover {
+  text-decoration: underline;
+}
+
+.sinopse {
+  max-width: 100%;
+  width: 75%;
+  height: 144px;
+}
+
+.btn-wrapper {
+  position: relative;
+  top: 20px;
+}
+
+.donwload-btn {
+  position: relative;
+  top: -30px;
+
+}
+
+.btn {
+  margin-right: 15px;
+  border: none;
+  padding: 5px 15px;
+  color: black;
+  background-color: lightgray;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  color: white;
+  background-color: var(--vermelho);
+}
+
+hr {
+  position: absolute;
+  top: 250px;
+  width: 75%;
+}
+
+.ref-btn {
+  position: relative;
+  top: 50px;
+  left: -234px;
+}
