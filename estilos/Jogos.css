@@ -1,5 +1,10 @@
 :root {
-  --vermelho: #E50914;
+  --vermelho: #09e52e;
+}
+
+body {
+  box-sizing: border-box;
+  max-width: 1440px;
 }
 
 main {
@@ -65,18 +70,18 @@ main {
   margin-top: -150px;
 }
 
-.jogou {
+.jogar {
   background-color: lightgray;
   margin-top: 5px;
   display: flex;
   color: black;
   border: none;
-  padding: 5px 110px;
+  padding: 5px 115px;
   transition: 0.3s;
   cursor: pointer;
 }
 
-.jogou:hover {
+.jogar:hover {
   background-color: var(--vermelho);
   color: white;
 }
@@ -123,10 +128,6 @@ main {
   text-decoration: none;
 }
 
-.referencias a:hover {
-  text-decoration: underline;
-}
-
 .sinopse {
   max-width: 100%;
   width: 75%;
@@ -146,6 +147,7 @@ main {
 
 .btn {
   margin-right: 15px;
+  margin-bottom: 15px;
   border: none;
   padding: 5px 15px;
   color: black;
@@ -161,7 +163,7 @@ main {
 
 hr {
   position: absolute;
-  top: 250px;
+  top: 331px;
   width: 75%;
 }
 
@@ -169,4 +171,20 @@ hr {
   position: relative;
   top: 50px;
   left: -234px;
+}
+
+.carrossel {
+  position: absolute;
+  top: 800px;
+  padding-bottom: 50px;
+}
+
+.item {
+  width: 100%;
+  height: 100%;
+}
+
+.icon img{
+  margin-top: 2px;
+  width: 13px;
 }
